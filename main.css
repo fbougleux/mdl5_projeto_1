@@ -1,0 +1,183 @@
+/*reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*container*/
+.container{
+    max-width: 1366px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*header*/
+.container header{
+    background-color: rgb(18, 18, 61);
+    color: white;
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+header a h1:hover{
+    text-decoration: underline;
+}
+
+.container header nav a{
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.container header nav a:hover{
+    text-decoration: underline;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*content*/
+.content{
+    display: flex;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*perfil*/
+
+.perfil{
+    width: 30%;
+    background-color: rgba(27, 92, 153, 0.377);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.perfil img{
+    width: 90%;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*dados*/
+.dados > h2{
+    text-align: center;
+}
+
+.dados > p{
+    text-align: center;
+}
+
+.dados{
+    margin-top: 150px;
+    width: 100%;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*content 2*/
+.content2{
+    width: 70%;
+    display:block;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*cursos*/
+.cursos{
+    background-color: rgba(27, 92, 153, 0.377);
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*objetivos*/
+
+.objetivos{
+    background-color: rgba(27, 92, 153, 0.377);
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*contato*/
+
+.contato h2, form{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato{
+    background-color: rgba(27, 92, 153, 0.377);
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 20px 20px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.contato input, button, textarea{
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    width: 360px;
+    border-radius: 15px;
+}
+
+.contato input, button, textarea:focus{
+    outline-color: rgb(18, 18, 61);
+}
+
+.contato textarea{
+    height: 200px;
+    resize: none;
+}
+
+.contato button{
+    padding: 16px;
+    background-color: rgb(18, 18, 61);
+    color: white;
+    font-weight: bold;
+}
+
+.contato button:hover{
+    background-color:  rgba(27, 92, 153, 0.377);
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*footer*/
+footer{
+    background-color: rgb(18, 18, 61);
+    color:white;
+    padding: 16px 16px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+footer p{
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
